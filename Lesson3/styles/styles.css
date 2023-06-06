@@ -10,7 +10,18 @@ body {
   height: 100%;
 }
 
-.wrapper{
-  
+.wrapper{  
   background-color: lightskyblue;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.content{
+  height: 500px;
+  background-color: lightcoral;
+  margin-block-end: 30px;
+  border: 2px;
+  border-color: black;
 }
