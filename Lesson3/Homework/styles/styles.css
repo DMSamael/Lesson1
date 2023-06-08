@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.activeMenu 
+{
+    width: 53px;
+    height: 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+    /* Black */
+
+    color: #070707;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.inactMenu 
+{
+    width: 86px;
+    height: 25px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+    color: #828282;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.firstScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+    position: absolute;
+    width: 970px;
+    height: 497px;
+    left: 235px;
+    top: 92px;
+}
+.fText {
+    width: 300px;
+    height: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    /* Black */
+
+    color: #070707;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fFoto {
+    width: 970px;
+    height: 387px;
+    background: url(valentin-salja-1058467-unsplash.jpg);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
