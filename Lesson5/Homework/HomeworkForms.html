@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles/styles.css'>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>
+                Форма реєстрації
+            </h1>
+            <h3>Заповніть будь ласка форму</h3>
+        </header>
+        <body>
+            <form>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="name">Повне імя</label></td>
+                            <td><input type="text" id="name" /><br /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="email" id="email" required /><br /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="pass1">Пароль</label></td>
+                            <td><input type="password" id="pass1" required /><br /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="pass2">Пароль ще раз</label></td>
+                            <td><input type="password" id="pass2" required /><br /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Man">Стать</label></td>
+                            <td><fieldset><input type="radio" id="man" name="sex">Чоловіча</input><input type="radio" id="woman" name="sex">Жіноча</input><input type="radio" id="other" name="sex" checked>Інша</input></fieldset></td>
+                        </tr>
+                        <tr>
+                            <td><label for="age">Вік</label></td>
+                            <td><input type="number" id="age" /><br /></td>
+                        </tr>
+                        <tr>
+                            <td><label for="course">Курс</label></td>
+                            <td>
+                                <select id="course" name="Course">
+                                    <option value="FE">Front-End</option>
+                                    <option value="BE">Back-End</option>
+                                    <option value="PM">Project Management</option>
+                                    <option value="QA">QA Manual</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="adress">Повна адреса</label></td>
+                            <td><textarea id="adress" placeholder="Країна, регіон, місто, вулиця" rows="10" cols="30"></textarea><br /></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input type="checkbox" required>Я погоджуюсь з обробкою персональних даних</input>
+                <br />
+                <br />
+                <button type="reset">Очистити форму</button><button type="submit">Зареєструватися</button>
+            </form>
+        </body>
+
+    </div>
+
+</body>
+</html>
